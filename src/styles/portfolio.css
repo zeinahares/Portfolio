@@ -1,0 +1,43 @@
+.page{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.card img {
+    object-fit: contain;
+    width: 75%;
+}
+
+.logo {
+    width: 20%;
+}
+
+.title {
+    z-index: 1;
+    position: relative;
+    width: auto;
+}
+
+.card {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
