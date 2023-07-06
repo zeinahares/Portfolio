@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../../styles/contact.css';
 
 // check valid email
 import { validateEmail } from '../../utils/helpers';
@@ -38,7 +39,7 @@ export default function Contact() {
 
     if (!validateEmail(email)) {
       setErrorMessage('The email is invalid');
-  
+
       return;
     }
 
@@ -54,19 +55,19 @@ export default function Contact() {
   };
 
   const checkForm = (text) => {
-  
-    if (!text || Message === '' || text === ' ' ) {
+
+    if (!text || Message === '' || text === ' ') {
       setErrorMessage('Form items cannot be empty');
       return;
     }
-  
+
     return;
   };
 
   const checkEmail = (email) => {
 
     if (!validateEmail(email)) {
-      setErrorMessage('The email is invalid');
+      setErrorMessage('Email is invalid');
 
       return;
     }
@@ -75,44 +76,51 @@ export default function Contact() {
   }
 
   return (
-    <div>
-      <p>Hello {Name}</p>
-      <form className="form">
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="Email"
-          onBlur={checkEmail}
-        />
-        <input
-          value={Name}
-          name="Name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Name"
-          onBlur={checkForm}
-        />
-        <input
-          value={Message}
-          name="Message"
-          onChange={handleInputChange}
-          type="textbox"
-          placeholder="Message"
-          onBlur={checkForm}
-        />
-        <button type="button"
-          onClick={handleFormSubmit}
-        >
-          Submit
-        </button>
-      </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
+    <div className='contact'>
+      <h1>Contact</h1>
+      <div>
+        <p>Hello {Name}</p>
+        <form className="form">
+          <h5>Name</h5>
+          <input
+            value={Name}
+            name="Name"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Name"
+            onBlur={checkForm}
+          />
+          <h5>Email</h5>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="Email"
+            onBlur={checkEmail}
+          />
+          <h5>Message</h5>
+          <textarea
+            value={Message}
+            name="Message"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Message"
+            onBlur={checkForm}
+          />
+          <button type="button"
+            onClick={handleFormSubmit}
+            className='button'
+          >
+            Submit
+          </button>
+        </form>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

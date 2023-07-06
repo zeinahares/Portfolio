@@ -24,9 +24,9 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 40%;
+    width: 50%;
     height: 100%;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 
 .tab {
