@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
-
+    background-color: rgb(236, 214, 240);
 }
 
 input[type=text],
@@ -32,7 +32,7 @@ textarea {
 }
 
 .button {
-    background-color: rgb(200, 0, 231);;
+    background-color: rgb(200, 0, 231);
     color: white;
     padding: 12px 20px;
     border: none;

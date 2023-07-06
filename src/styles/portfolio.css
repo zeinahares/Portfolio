@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    background-color: rgb(236, 214, 240);
 }
 .header {
     display: flex;
