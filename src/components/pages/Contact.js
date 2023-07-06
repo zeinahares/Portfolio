@@ -78,7 +78,7 @@ export default function Contact() {
   return (
     <div className='contact'>
       <h1>Contact</h1>
-      <div>
+      <div className='contact_content'>
         <p>Hello {Name}</p>
         <form className="form">
           <h5>Name</h5>

@@ -68,3 +68,37 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px)  {
+    .navContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        height: 260px;
+    }
+
+    .navContainer img {
+        height: 260px;
+    }
+
+    .navContainer h1 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .nav{
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding-right: 0px;
+    }
+    .navTitle{
+        padding-left: 0px;
+    }
+    .tab-item{
+        width: 100%;
+        justify-content: center;
+    }
+    .tab-item.clicked{
+        border-radius: 50px;
+    }
+}

@@ -101,3 +101,33 @@
     width: 100%;
 }
 
+@media screen and (max-width: 768px)  {
+    .section_content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .work_card {
+        width: 100%;
+        opacity: 1;
+        margin: 0;
+        margin-bottom:2%;
+    }
+
+    .title_card {
+        width: 100%;
+        height: 56%;
+        opacity: 1;
+        text-align: center;
+    }
+
+    .title_card .logo{
+        left: 0%;
+        opacity: 1;
+    }
+
+    .title_content {
+        opacity: 1;
+    }
+}
