@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Link to My Portfolio
+https://zeinahares.github.io/Portfolio/
 
 ## Description
 I wanted to create a website to host a portfolio of all my work and my resume.
