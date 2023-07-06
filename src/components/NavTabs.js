@@ -4,7 +4,7 @@ import '../styles/nav.css'
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div class="navContainer">
-      <img src="/images/bghead.jpg" alt="bg header"/>
+      <img src="./images/bghead.jpg" alt="bg header"/>
       <h1 className="navTitle">Zeina Hares</h1>
       <ul className="nav">
         <li 

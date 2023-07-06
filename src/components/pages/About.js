@@ -6,7 +6,7 @@ export default function About() {
     <div className='about'>
       <div className='aboutTitle'>
         <h1>About Me</h1>
-        <img id='headshot' src="/images/zeinaheadshot.png" alt="Zeina Headshot" />
+        <img id='headshot' src="./images/zeinaheadshot.png" alt="Zeina Headshot" />
       </div>
       <div className='aboutContent'>
 
