@@ -15,69 +15,69 @@ export default function Portfolio() {
 
       <div class="section_content">
 
-        <a href="https://pawesomecare1.herokuapp.com/" class="work_card">
+        <a href="https://pawesomecare1.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
           <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
             <div class="title_card">
               <div class="title_content">
                 <h3>Pawesome Care</h3>
                 <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
               </div>
-              <a href='https://www.google.com'><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
 
-        <a href="https://pawesomecare1.herokuapp.com/" class="work_card">
+        <a href="https://pawesomecare1.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
           <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
             <div class="title_card">
               <div class="title_content">
                 <h3>Pawesome Care</h3>
                 <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
               </div>
-              <a href='https://www.google.com'><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
  
-        <a href="https://pawesomecare1.herokuapp.com/" class="work_card">
+        <a href="https://pawesomecare1.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
           <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
             <div class="title_card">
               <div class="title_content">
                 <h3>Pawesome Care</h3>
                 <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
               </div>
-              <a href='https://www.google.com'><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
  
-        <a href="https://pawesomecare1.herokuapp.com/" class="work_card">
+        <a href="https://pawesomecare1.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
           <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
             <div class="title_card">
               <div class="title_content">
                 <h3>Pawesome Care</h3>
                 <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
               </div>
-              <a href='https://www.google.com'><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
  
-        <a href="https://pawesomecare1.herokuapp.com/" class="work_card">
+        <a href="https://pawesomecare1.herokuapp.com/"  rel="noreferrer" target="_blank" class="work_card">
           <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
             <div class="title_card">
               <div class="title_content">
                 <h3>Pawesome Care</h3>
                 <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
               </div>
-              <a href='https://www.google.com'><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
  
-        <a href="https://pawesomecare1.herokuapp.com/" class="work_card">
+        <a href="https://pawesomecare1.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
           <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
             <div class="title_card">
               <div class="title_content">
                 <h3>Pawesome Care</h3>
                 <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
               </div>
-              <a href='https://www.google.com'><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
  
