@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../../styles/portfolio.css';
 
 export default function Portfolio() {
@@ -16,68 +16,68 @@ export default function Portfolio() {
       <div class="section_content">
 
         <a href="https://pawesomecare1.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
-          <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
+          <img src="/images/pawesome-screenshot5.png" alt="Project Snapshot of a mandebrot set" />
             <div class="title_card">
               <div class="title_content">
                 <h3>Pawesome Care</h3>
                 <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
               </div>
-              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+              <a href='https://github.com/zeinahares/PawsomeCare' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
 
-        <a href="https://pawesomecare1.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
-          <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
+        <a href="https://jate-code-9aec63e172ae.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
+          <img src="/images/jate.png" alt="jate snapshot" />
             <div class="title_card">
               <div class="title_content">
-                <h3>Pawesome Care</h3>
+                <h3>JATE</h3>
+                <p>HTML/CSS/JS/NodeJS/ExpressJS/npm/PWA/Webpack</p>
+              </div>
+              <a href='https://github.com/zeinahares/Coding-Text-Editor' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+            </div>
+        </a>
+
+        <a href="https://developer-tech-blog.herokuapp.com/8" rel="noreferrer" target="_blank" class="work_card">
+          <img src="/images/screenshot1.png" alt="Project Snapshot of a mandebrot set" />
+            <div class="title_card">
+              <div class="title_content">
+                <h3>The Tech Blog</h3>
                 <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
               </div>
-              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+              <a href='https://github.com/zeinahares/Developer-Blog' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
  
-        <a href="https://pawesomecare1.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
-          <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
+        <a href="https://note-taker-database.herokuapp.com/"  rel="noreferrer" target="_blank" class="work_card">
+          <img src="/images/full-note.png" alt="Project Snapshot of a mandebrot set" />
             <div class="title_card">
               <div class="title_content">
-                <h3>Pawesome Care</h3>
-                <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
+                <h3>Note Taker Databse</h3>
+                <p>HTML/CSS/JS/NodeJS/ExpressJS</p>
               </div>
-              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+              <a href='https://github.com/zeinahares/Note-Taker-Database' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
  
-        <a href="https://pawesomecare1.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
-          <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
+        <a href="https://zeinahares.github.io/Group-Project-1-CineFile/" rel="noreferrer" target="_blank" class="work_card">
+          <img src="/images/cinefile.png" alt="Project Snapshot of a mandebrot set" />
             <div class="title_card">
               <div class="title_content">
-                <h3>Pawesome Care</h3>
-                <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
+                <h3>CineFile</h3>
+                <p>HTML/CSS/JS/API</p>
               </div>
-              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+              <a href='https://github.com/zeinahares/Group-Project-1-CineFile' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
- 
-        <a href="https://pawesomecare1.herokuapp.com/"  rel="noreferrer" target="_blank" class="work_card">
-          <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
+
+        <a href="https://zeinahares.github.io/Weekly-Weather/" rel="noreferrer" target="_blank" class="work_card">
+          <img src="/images/website-screenshot.png" alt="Project Snapshot of a mandebrot set" />
             <div class="title_card">
               <div class="title_content">
-                <h3>Pawesome Care</h3>
-                <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
+                <h3>Weekly Weather</h3>
+                <p>HTML/CSS/JS/API</p>
               </div>
-              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
-            </div>
-        </a>
- 
-        <a href="https://pawesomecare1.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
-          <img src="/images/dog1.png" alt="Project Snapshot of a mandebrot set" />
-            <div class="title_card">
-              <div class="title_content">
-                <h3>Pawesome Care</h3>
-                <p>HandleBars/CSS/JS/Sequalize/NodeJS/ExpressJS</p>
-              </div>
-              <a href='https://www.google.com' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
+              <a href='https://github.com/zeinahares/Weekly-Weather' rel="noreferrer" target="_blank"><img src="/images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
  

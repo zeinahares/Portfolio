@@ -1,6 +1,7 @@
 import React from 'react';
+// import '../styles/nav.css'
 
-function Footer({ currentPage, handlePageChange }) {
+function Footer() {
   return (
     <div className='footer'>
       {/* three logos, github, linked in, and a 3rd */}
