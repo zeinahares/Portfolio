@@ -28,7 +28,7 @@
 }
 .navTitle{
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 130px;
 }
 
 .navContainer img {
@@ -39,7 +39,7 @@
     height: 150px;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
