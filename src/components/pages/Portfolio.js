@@ -15,6 +15,17 @@ export default function Portfolio() {
 
       <div class="section_content">
 
+      <a href="https://qwizard-c649b0755527.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
+          <img src="./images/qwizard.png" alt="Project Snapshot of a mandebrot set" />
+            <div class="title_card">
+              <div class="title_content">
+                <h3>Qwizard</h3>
+                <p>React/GraphQL/Mongoose/Express/Antd/Node/JS</p>
+              </div>
+              <a href='https://github.com/zeinahares/Group-Project-3' rel="noreferrer" target="_blank"><img src="./images/github-mark.png" alt="Github Logo" class="logo" /></a>
+            </div>
+        </a>
+
         <a href="https://pawesomecare1.herokuapp.com/" rel="noreferrer" target="_blank" class="work_card">
           <img src="./images/pawesome-screenshot5.png" alt="Project Snapshot of a mandebrot set" />
             <div class="title_card">
@@ -67,17 +78,6 @@ export default function Portfolio() {
                 <p>HTML/CSS/JS/API</p>
               </div>
               <a href='https://github.com/zeinahares/Group-Project-1-CineFile' rel="noreferrer" target="_blank"><img src="./images/github-mark.png" alt="Github Logo" class="logo" /></a>
-            </div>
-        </a>
-
-        <a href="https://zeinahares.github.io/Weekly-Weather/" rel="noreferrer" target="_blank" class="work_card">
-          <img src="./images/website-screenshot.png" alt="Project Snapshot of a mandebrot set" />
-            <div class="title_card">
-              <div class="title_content">
-                <h3>Weekly Weather</h3>
-                <p>HTML/CSS/JS/API</p>
-              </div>
-              <a href='https://github.com/zeinahares/Weekly-Weather' rel="noreferrer" target="_blank"><img src="./images/github-mark.png" alt="Github Logo" class="logo" /></a>
             </div>
         </a>
  
