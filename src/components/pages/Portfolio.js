@@ -56,7 +56,7 @@ export default function Portfolio() {
     {
       title: 'Weather Dashboard',
       description: 'HTML/CSS/JS/API',
-      image: './images/website-screenshot.jpg',
+      image: './images/website-screenshot.png',
       github: 'https://github.com/zeinahares/Weekly-Weather',
       deployed: 'https://zeinahares.github.io/Weekly-Weather/'
     },
