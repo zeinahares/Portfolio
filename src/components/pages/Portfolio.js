@@ -56,7 +56,7 @@ export default function Portfolio() {
     {
       title: 'Weather Dashboard',
       description: 'HTML/CSS/JS/API',
-      image: './images/weather.jpg',
+      image: './images/website-screenshot.jpg',
       github: 'https://github.com/zeinahares/Weekly-Weather',
       deployed: 'https://zeinahares.github.io/Weekly-Weather/'
     },
@@ -70,7 +70,7 @@ export default function Portfolio() {
     {
       title: 'Work Day Scheduler',
       description: 'HTML/CSS/JS',
-      image: './images/workday.jpg',
+      image: './images/workday.png',
       github: 'https://github.com/zeinahares/Workday-To-Do-List',
       deployed: 'https://zeinahares.github.io/Workday-To-Do-List/'
     },
@@ -84,7 +84,7 @@ export default function Portfolio() {
     {
       title: '1st Portfolio Website',
       description: 'HTML/CSS/JS',
-      image: './images/website_long.png',
+      image: './images/website.png',
       github: 'https://github.com/zeinahares/zeina_portfolio',
       deployed: 'https://zeinahares.github.io/zeina_portfolio/'
     },
