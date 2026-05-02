@@ -11,7 +11,7 @@ export default function About() {
       <div className='aboutContent'>
 
         <p>
-        Full Stack Web Developer currently completing a Bachelors of Computer Science at UNSW. Acquired recently a certificate in Full Stack Web Development from the University of Sydney’s Coding Boot Camp. Possessing a background in Media Screen and Sound Production, offering distinct viewpoints in project creation and management, as well as in designing end-user interaction for websites and software platforms. Demonstrating innovation in problem-solving and a dedicated interest in app development, with a specialized emphasis on backend design and management, as well as mobile-first design and development. Fostering creativity, collaboration within teams, and seamlessly steering projects from conceptualization to realization.
+          I'm a final-year Computing and Software Systems student at the University of Melbourne with hands-on experience across the full stack — from React frontends to database architecture and workflow automation. I thrive in collaborative environments, naturally take on leadership, and care just as much about the user experience as the code behind it. Open to wherever great problems need solving.
         </p>
       </div>
 

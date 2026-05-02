@@ -1,68 +1,93 @@
 import React from 'react';
 import '../../styles/resume.css';
 
+const skillSets = [
+  {
+    title: 'Languages',
+    skills: [
+      'JavaScript (ES6+)',
+      'Python',
+      'Java',
+      'C',
+      'HTML5',
+      'CSS3',
+      'SQL',
+      'GraphQL',
+      'Haskell',
+      'Prolog',
+    ],
+  },
+  {
+    title: 'Frontend',
+    skills: [
+      'React',
+      'jQuery',
+      'Handlebars',
+      'Bootstrap',
+      'Progressive Web Apps',
+      'Single Page Applications',
+      'Mobile-First Design',
+    ],
+  },
+  {
+    title: 'Backend & Databases',
+    skills: [
+      'Node.js',
+      'Express',
+      'REST APIs',
+      'GraphQL',
+      'MySQL / Sequelize',
+      'MongoDB / Mongoose',
+      'NoSQL',
+    ],
+  },
+  {
+    title: 'Tools & Platforms',
+    skills: [
+      'Git & GitHub',
+      'npm',
+      'Heroku',
+      'Chrome DevTools',
+      'Google Workspace',
+      'Microsoft Excel (Advanced)',
+      'DanceBiz',
+    ],
+  },
+  {
+    title: 'Concepts & Methodologies',
+    skills: [
+      'Object-Oriented Programming',
+      'Object-Relational Mapping',
+      'Model-View-Controller',
+      'MERN Stack',
+      'A* Search & Heuristics',
+      'UML & System Design',
+      'Test-Driven Development',
+      'Workflow Automation',
+    ],
+  },
+];
+
 export default function Resume() {
   return (
     <div className='resume'>
       <h1>My Skills</h1>
-      <h5>< a href="./resume2.pdf" target="_blank" download>Click Here to Download My Resume</a>
+      <h5>
+        <a href='./Zeina_Hares_Resume_2026.pdf' target='_blank' download>
+          Click Here to Download My Resume
+        </a>
       </h5>
       <div className='resume_container'>
-        <div className='set'>
-          <h3>Front End</h3>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>React</li>
-            <li>Handlebars</li>
-            <li>Progressive Web Apps</li>
-            <li>Bootstrap</li>
-            <li>Materialize</li>
-            <li>Bulma</li>
-          </ul>
-        </div>
-        <div className='set'>
-          <h3>Back End</h3>
-          <ul>
-            <li>APIs</li>
-            <li>Node</li>
-            <li>Express</li>
-            <li>MySQL, Sequelize</li>
-            <li>MongoDB, Mongoose</li>
-            <li>REST</li>
-            <li>GraphQL</li>
-          </ul>
-        </div>
-        <div className='set'>
-          <h3>Dev Tools</h3>
-          <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Heroku</li>
-            <li>Terminal</li>
-            <li>npm</li>
-            <li>Chrome DevTools</li>
-            <li>Insomnia</li>
-            <li>MySQL Workbench</li>
-            <li>MongoDB Compass</li>
-          </ul>
-        </div>
-
-
-        <div className='set'>
-          <h3>Frameworks</h3>
-          <ul>
-            <li>Object Oriented Programming</li>
-            <li>Object Relational Mapping</li>
-            <li>Model View Controller</li>
-            <li>MERN Stack</li>
-            <li>Progressive Web Applications</li>
-            <li>Single Page Applications</li>
-            <li>Test Driven Development</li>
-          </ul>
-        </div>
+        {skillSets.map((set) => (
+          <div className='set' key={set.title}>
+            <h3>{set.title}</h3>
+            <ul>
+              {set.skills.map((skill) => (
+                <li key={skill}>{skill}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </div>
   );
