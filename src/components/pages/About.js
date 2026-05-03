@@ -11,7 +11,10 @@ export default function About() {
       <div className='aboutContent'>
 
         <p>
-          I'm a final-year Computing and Software Systems student at the University of Melbourne with hands-on experience across the full stack — from React frontends to database architecture and workflow automation. I thrive in collaborative environments, naturally take on leadership, and care just as much about the user experience as the code behind it. Open to wherever great problems need solving.
+          Final-year CS student at the University of Melbourne and certified full-stack developer. I build web apps, automate the things that shouldn't be manual, and somehow always end up project managing. Adaptable, fast to learn, and open to wherever meaningful work takes me.
+        </p>
+        <p>
+          I'm drawn to backend engineering, full-stack development, and the intersections of software with security, machine learning, and AI — spaces where what you build can genuinely change how people experience the world, whether that impact reaches one person or a million.
         </p>
       </div>
 
